@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Conversor Imersão Alura</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">Conversor de moedas</h1>
+      <div class="valorEmDolar">
+        <label id="label" for="value-dollar">Valor em Dolar:</label>
+        <input type="number" name="value-dollar" id="value-dollar" />
+      </div>
+      <div class="cotacaoEmDolar">
+        <label id="label" for="value-cotacao">Cotação do Dólar hoje:</label>
+        <input type="number" name="value-cotacao" id="value-cotacao" />
+      </div>
+      <div class="botaoCalcular">
+        <button type="submit" id="calculate-button">Calcular</button>
+      </div>
+
+      <div class="result" id="result"></div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
