@@ -1,6 +1,4 @@
 const calculateButton = document.getElementById("calculate-button");
-
-
 calculateButton.addEventListener("click", () => {
     const valueDollar = document.getElementById("value-dollar").value;
     const valueCotacao = document.getElementById("value-cotacao").value;
